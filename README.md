@@ -1,5 +1,5 @@
 # Rock Paper Scissors Game
-This is a simple Rock Paper Scissors game using JavaScript
+This is a simple Rock Paper Scissors game using JavaScript.
 
 ### Project Details
 This is the Rock Paper Scissors Project from The Odin Project foundations course.
