@@ -1,9 +1,10 @@
-
+//randomly return ‘rock’, ‘paper’ or ‘scissors’
 function computerPlay() {
   const choices = ['rock', 'paper', 'scissors'];
   return choices[Math.floor(Math.random() * choices.length)];
 }
 
+//play a single round of the game, then declares a winner
 function playRound(playerSelection, computerSelection) {
   switch (true) {
     case (playerSelection.toUpperCase() === 'ROCK'):
@@ -51,6 +52,7 @@ function playRound(playerSelection, computerSelection) {
   }
 }
 
+//call playRound() function and loops it 5 times 
 function game() {
   for (let i = 0; i < 5; i++) {
     const playerSelection = prompt('Please Select Rock, Paper, or Scissors: ');
@@ -61,4 +63,5 @@ function game() {
   return('Thanks for playing!!!');
 }
 
+//call game functiion
 game();
